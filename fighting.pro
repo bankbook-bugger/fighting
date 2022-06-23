@@ -58,3 +58,14 @@ win32 {
 macx {
     ICON = macx/app_icon.icns
 }
+
+HEADERS += \
+    qml/w.h
+
+DISTFILES += \
+    qml/GameScene.qml \
+    qml/Level1.qml \
+    qml/Levelbase.qml \
+    qml/MenuButton.qml \
+    qml/SceneBase.qml \
+    qml/SelectLevelScene.qml
